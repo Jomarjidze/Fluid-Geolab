@@ -1,0 +1,56 @@
+.box {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.left-wraper {
+	float: ;
+	background-color: red;
+	width: 550px;
+	float: left;
+}
+
+.image1 {
+	float: right;
+	width: 200px;
+}
+
+
+.right-wraper {
+	float: right;
+	background-color: yellow;
+	width: 550px;
+}
+
+
+.image2{
+	float: left;
+	width: 200px;
+}
+.image {
+	float: right;
+	width: 300px;
+}
+.text1 {
+	float: left;
+	width: 300px;
+}
+.clear {
+	clear: both;
+	display: block;
+}
+.text {
+	display: inline-block;
+}
+.text::before {content: 'GEOLAB';
+display: inline-block;
+}
+.wraper::after {content: ''
+		clear: both;}
+.devider {
+	display: inline-block;
+	width: 2px;
+	height: 15px;
+	background-color: red;
+	margin: 0 10px;
+}
